@@ -1,0 +1,135 @@
+/* 
+    Document   : header
+    Created on : 05 31, 13, 7:58:55 AM
+    Author     : michael pippin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body{
+    background-color: #999;
+}
+root { 
+    display: block;
+}
+#header img{
+    float: left;
+}
+#header{
+    background-color: #f60;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 5px;
+    height: 80px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+#article{    
+    border-top-style: solid;
+    border-top-color: #999;
+    border-top-width: 15px;
+    background-color: white;
+    float: right;
+    min-height: 605px;
+}
+#article h3{
+    padding-left: 15px;
+    font-family: arial black, sans-serif;
+    font-size: 20px;
+    color: #444;
+}
+#article hr{
+    height: 5px;
+    background-color: #f60;
+}
+#article p{
+    
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    text-indent: 3em;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+    color: #000;
+}
+
+#headPhoto{
+    height: 80px;
+}
+nav{
+    position: absolute;
+    left:385px;
+    top:14px;
+    font-size: 16px;
+}
+nav ul ul {
+    display: none;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+nav ul {
+    font-family: arial black, sans-serif;
+    background: #ff6600; 
+    background: linear-gradient(top, #f60 0%, #fff 100%);  
+    background: -moz-linear-gradient(top, #ff6600 0%, #fff 100%); 
+    background: -webkit-linear-gradient(top, #ff6600 0%,#fff 100%); 
+    padding: 0 20px;
+    border-radius: 10px;  
+    list-style: none;
+    position: relative;
+    display: inline-table;
+}
+nav ul:after {
+    content: ""; 
+    clear: both; 
+    display: block;
+}
+nav ul li {
+    float: left;
+}
+nav ul li:hover {
+    background: #ff6600;
+    background: linear-gradient(top, #ff6600 0%, #fff 40%);
+    background: -moz-linear-gradient(top, #ff6600 0%, #fff 40%);
+    background: -webkit-linear-gradient(top, #ff6600 0%,#fff 40%);
+    border-radius: 10px;
+}
+nav ul li:hover a {
+    color: #444;
+}
+
+nav ul li a {
+    display: block; 
+    padding: 25px 25px;
+    color: #222; 
+    text-decoration: none;
+}
+nav ul ul {
+    font-family: arial, sans-serif;
+    background: #ff6600;
+    border-radius: 10px;
+    padding: 0;
+    position: absolute; 
+    top: 100%;
+}
+nav ul ul li {
+    float: none; 
+    position: relative;
+}
+nav ul ul li a {
+    padding: 15px 40px;
+    color: #555;
+    font-size: 18px;
+}	
+nav ul ul li a:hover {
+    
+    background: #ff6600;
+    display: table-column;
+}
+nav ul ul ul {
+    font-family: arial, sans-serif;
+    position: absolute; left: 100%; top:0;
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+}
+

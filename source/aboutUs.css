@@ -1,0 +1,122 @@
+/* 
+    Document   : aboutUs
+    Created on : 06 6, 13, 9:18:33 PM
+    Author     : michael pippin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#navigation{
+    float: left;
+}
+#navigation ul ul {
+    display: none;
+}
+
+#navigation ul li:hover > ul {
+    display: block;
+}
+#navigation ul {
+    width: 175px;
+    font-family: arial black, sans-serif;
+    background: #ff6600; 
+    background: linear-gradient(top, #f60 0%, #fff 100%);  
+    background: -moz-linear-gradient(top, #ff6600 0%, #fff 100%); 
+    background: -webkit-linear-gradient(top, #ff6600 0%,#fff 100%); 
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+    padding: 0 35px;
+    border-radius: 10px;  
+    list-style: none;
+    position: relative;
+    display: block;
+}
+#navigation ul:after {
+    content: ""; 
+    clear: both; 
+    display: block;
+}
+#navigation ul li {
+    float: top;
+}
+#navigation ul li:hover {
+    background: #ff6600;
+    background: linear-gradient(top, #ff6600 0%, #fff 40%);
+    background: -moz-linear-gradient(top, #ff6600 0%, #fff 40%);
+    background: -webkit-linear-gradient(top, #ff6600 0%,#fff 40%);
+}
+#navigation ul li:hover a {
+    color: #444;
+}
+
+#navigation ul li a {
+    display: block; padding: 25px 25px;
+    color: #444; text-decoration: none;
+}
+body{
+    background-color: #999;
+}
+root { 
+    display: block;
+}
+#header img{
+    float: left;
+}
+#header{
+    background-color: #f60;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 5px;
+    height: 80px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+#article h3{
+    padding-left: 15px;
+    font-family: arial black, sans-serif;
+    font-size: 20px;
+    color: #444;
+}
+#article #sub{
+    font-family: arial black, sans-serif;
+    font-size: 16px;
+    color: #444;
+    display: block;
+}
+#article hr{
+    height: 5px;
+    background-color: #f60;
+}
+#article hr #first{
+    top: 150px;
+}
+#article p{
+
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    text-indent: 3em;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+    color: #000;
+}
+#article{
+
+    border-top-style: solid;
+    border-top-color: #999;
+    border-top-width: 15px;
+    background-color: white;
+    float: right;
+    min-height: 605px;
+    width: 80%;
+}
+#article #resume{
+    border-style: solid;
+    border-color: white;
+    border-width: 15px;
+    width: 140px;
+    float: left;
+    
+}
+#headPhoto{
+    height: 80px;
+}
